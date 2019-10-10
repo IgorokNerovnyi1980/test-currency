@@ -3,20 +3,39 @@ import styled from 'styled-components';
 
 const currentyName = ['USD', 'EUR', 'UAN'];
 
-const Select = styled.select`
+const Wrapper = styled.div`
   width: 15%;
-  color: rgb(243, 242, 242);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: poiner;
+`;
+
+const Select = styled.select`
+  padding: 0.5em;
+  appearance: none !important;
+  background-color: #252729;
+  border: none;
   border-bottom: 0.1em solid white;
-  background: none;
-  style: none;
+  color: rgb(243, 242, 242);
+  font-size: 1rem;
+  outline: none;
+  cursor: pointer;
+  ::-ms-expand {
+    display: none;
+  }
 `;
 
 const BaseCurrency = () => (
-  <Select>
-    {currentyName.map(item => (
-      <option>{item}</option>
-    ))}
-  </Select>
+  <Wrapper>
+    <Select>
+      {currentyName.map(item => (
+        <option key={item} value={item}>
+          {item}
+        </option>
+      ))}
+    </Select>
+  </Wrapper>
 );
 
 export default BaseCurrency;
