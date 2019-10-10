@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/test-currency/static/css/main.5624aa5a.chunk.css",
+    "main.js": "/test-currency/static/js/main.c0c487e0.chunk.js",
+    "main.js.map": "/test-currency/static/js/main.c0c487e0.chunk.js.map",
+    "runtime-main.js": "/test-currency/static/js/runtime-main.8463ff11.js",
+    "runtime-main.js.map": "/test-currency/static/js/runtime-main.8463ff11.js.map",
+    "static/js/2.d3e200b3.chunk.js": "/test-currency/static/js/2.d3e200b3.chunk.js",
+    "static/js/2.d3e200b3.chunk.js.map": "/test-currency/static/js/2.d3e200b3.chunk.js.map",
+    "index.html": "/test-currency/index.html",
+    "precache-manifest.b678424f041d36e7d5ea687f74f3b322.js": "/test-currency/precache-manifest.b678424f041d36e7d5ea687f74f3b322.js",
+    "service-worker.js": "/test-currency/service-worker.js",
+    "static/css/main.5624aa5a.chunk.css.map": "/test-currency/static/css/main.5624aa5a.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8463ff11.js",
+    "static/js/2.d3e200b3.chunk.js",
+    "static/css/main.5624aa5a.chunk.css",
+    "static/js/main.c0c487e0.chunk.js"
+  ]
+}
