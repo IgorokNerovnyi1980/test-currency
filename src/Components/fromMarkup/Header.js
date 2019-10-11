@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 const title = 'Current course to ';
 
@@ -33,6 +34,10 @@ const List = styled.div`
   font-size: 1rem;
   font-weight: 600;
 `;
+const linkStyles = {
+  textDecoration: 'none',
+  color: 'white',
+};
 
 const Header = ({ currencyName = 'USD' }) => (
   <Wrapper>
@@ -40,10 +45,14 @@ const Header = ({ currencyName = 'USD' }) => (
     <Menu>
       <List>
         <li>
-          <p>Home</p>
+          <Link to={'/home'} style={linkStyles}>
+            <p>Home</p>
+          </Link>
         </li>
         <li>
-          <p>Calculator</p>
+          <Link to={'/convertor'} style={linkStyles}>
+            <p>Convertor</p>
+          </Link>
         </li>
       </List>
     </Menu>
