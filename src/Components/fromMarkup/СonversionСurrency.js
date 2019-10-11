@@ -17,11 +17,14 @@ const Title = styled.p`
   font-weight: 600;
   cursor: pointer;
 `;
+const handleClick = () => {
+  alert('the module is under development');
+};
 
 const ConversionCurrency = () => {
   return (
     <Wrapper>
-      <Title>{title}</Title>
+      <Title onClick={handleClick}>{title}</Title>
     </Wrapper>
   );
 };

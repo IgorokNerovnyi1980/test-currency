@@ -4,7 +4,7 @@ import BaseCurrency from './BaseCurrency';
 import ConversionCurrency from './СonversionСurrency';
 import DateNow from './DateNow';
 
-const Wrapper = styled.header`
+const Wrapper = styled.div`
   width: 60%;
   height: 20vh;
   margin: 0 auto;
