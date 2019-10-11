@@ -59,7 +59,6 @@ const Wrapper = styled.div`
   margin-bottom: 2em;
   padding-top: 1em;
   padding-bottom: 1em;
-  border-radius: 1em;
   box-shadow: 0px 6px 5px -2px rgba(219, 222, 221, 0.54);
   display: flex;
   flex-wrap: wrap;

@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import * as moment from 'moment';
 
-const title = 'Date Now';
+const title = 'Today';
 const date = moment().format('MMM Do YY');
 
 const Wrapper = styled.div`
